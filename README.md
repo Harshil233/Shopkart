@@ -1,20 +1,7 @@
-# Ecommerce (React) Coding Assessment
+# Ecommerce (React) Coding Assessment Completed
 
-## Overview
-
-To complete this assessment, you will need to use this [Ecommerce-boilerplate](https://github.com/gurukishore111/Ecommerce-boilerplate) web app.
-
-The purpose of this assessment is to assess your **skills and approach to composing a simple web app** given an API feed.
-
-## What to do?
-
-Your goal is to implement an eCommerce application. The CSS framework/library is totally up to you.
-
-Although it's a very basic exercise, we will be looking for simple, well-designed, well-commented, and tested code in the submission.
-
-Please include a `README` with setup instructions and any other documentation you created as part of your solution.
-
-Also, add very short info for the following to your `README`:
+## Setup:
+1) Run 
 
 - Describe all the application functionalities
 - Are there any improvements you could make to your submission?
