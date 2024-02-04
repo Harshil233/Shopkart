@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e5eef8;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  display: flex;
+  background-color: #0177ec;
+  justify-content: space-around;
+  align-items: center;
+  padding: 14px 0px;
+}
+
+.navbar h1{
+  color: white;
+}
+
+.navbar div{
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  color: white;
+}
+
+.navbar div svg{
+  width: 25px;
+}
+
+.body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login{
+  background-color: #fefefe;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 450px;
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 4px 4px 10px 0px #cdcdcd;
+  padding: 35px;
+}
+
+.login h1{
+  margin-bottom: 20px;
+}
+
+.login input{
+  width: 100%;
+  border: none;
+  background-color: #f1f5f9;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 50px;
+}
+
+.login input::placeholder{
+  font-size: 16px;
+}
+
+.login div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.login div p{
+  color: #0177ec;
+  font-size: 18px;
+}
+
+.login div button{
+  background-color: #1c72e7;
+  padding: 12px 57px;
+  font-weight: 100;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px #aeaeae
+}
+
+
