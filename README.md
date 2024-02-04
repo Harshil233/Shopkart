@@ -44,5 +44,6 @@ for placing the order
 1) I would have used redux for fetching the products from the JSON server, as well as the authentication of the user could have also been done with redux if there was more time.
 2) Adding the favourite items functionality and storing it in the JSON server could have been added.
 3) Could have make it properly responsive, currently there are some alignment issues for small device screen.
+4) The JSON-server url works locally, so the deployment of the code would only be possible if the server is running locally on the user's device also. So could have worked on this
 
 
