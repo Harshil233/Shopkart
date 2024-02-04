@@ -1,7 +1,7 @@
 # Ecommerce (React) Coding Assessment Completed
 
 ## Demo Video of it:
-Video URL: 
+Video URL: https://drive.google.com/file/d/1Qd_RhQsBXYDV8PZV_F8c6nXXD5cgh16c/view?usp=sharing
 
 ## Setup:
 1) Run `npx json-server --watch db.json --port 3001` to run the json server locally on the port 3001
