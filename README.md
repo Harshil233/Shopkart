@@ -3,6 +3,9 @@
 ## Demo Video of it:
 Video URL: https://drive.google.com/file/d/1Qd_RhQsBXYDV8PZV_F8c6nXXD5cgh16c/view?usp=sharing
 
+## Demo video of the JSON server running at localhost:3001
+Video URL: https://drive.google.com/file/d/15l_2kj5M6qaCYx7Bnc5VWVVJUCks3N0I/view?usp=sharing
+
 ## Setup:
 1) Run `npx json-server --watch db.json --port 3001` to run the json server locally on the port 3001
 2) Run `npm install` to install all the dependencies
@@ -15,16 +18,17 @@ Video URL: https://drive.google.com/file/d/1Qd_RhQsBXYDV8PZV_F8c6nXXD5cgh16c/vie
 be redirected to login page, and then the user will be able to login if he/she enters the correct credentials. Also, user can't login or register if the input field is empty.
 
 2) I have used `Redux` for managing the state
-- Whenever the user adds or removes any product in the cart, then it's state is managed by Redux.
+- Whenever the user adds or removes any product in the cart, then it's state is managed by `Redux`. The changes are also reflected in the cart icon and that is also managed by `Redux`
 
 3) Add to Cart and Buy now functionality 
-- Whenever the user adds any product to the cart, then the cart value is increased in the navbar also.
+- Whenever the user adds any product to the cart, then the cart value is increased in the navbar also. And as soon as the user clicks on the buy now option, the user gets redirected to the cart page 
+for placing the order
 
 4) Product total functionality
-- The total amount of the item present in the cart is also being calculated.
+- The total amount of the item present in the cart is also being calculated. 
 
 5) Product Description
-- As soon as the user clicks on the specific product, then the complete description of that product is shown to the user.
+- As soon as the user clicks on the specific product, then the complete description of that product is shown to the user. For achieving this functionality, I have used `useParams` hook.
 
 6) Clean and neat UI 
 - I have tried to match the UI design as per the attached screenshots.
